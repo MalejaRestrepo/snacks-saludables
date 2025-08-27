@@ -251,7 +251,7 @@ footer p {
 }
 
 footer .redes a {
-  color: #333;
+  color: #777;
   margin: 0 8px;
   text-decoration: none;
   font-weight: 500;
@@ -281,7 +281,7 @@ html {
 }
 
 .btn-primary {
-  background-color: #5bcebf;
+  background-color: #f09154;
   border: none;
   font-weight: 600;
   border-radius: 8px;
@@ -290,12 +290,12 @@ html {
 }
 
 .btn-primary:hover {
-  background-color: #4bb1a5;
+  background-color: #d9793f;
   transform: translateY(-2px);
 }
 
 .btn-success {
-  background-color: #43998e;
+  background-color: #5bcebf;
   border: none;
   font-weight: 600;
   border-radius: 8px;
@@ -304,9 +304,25 @@ html {
 }
 
 .btn-success:hover {
+  background-color: #4bb1a5;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #43998e;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+.btn-secondary:hover {
   background-color: #367b72;
   transform: translateY(-2px);
 }
+
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
