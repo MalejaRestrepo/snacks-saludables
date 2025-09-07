@@ -1,0 +1,42 @@
+form {
+  input,
+  textarea {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #5bcebf;
+      box-shadow: 0 0 5px rgba(91, 206, 191, 0.4);
+    }
+  }
+
+  button {
+    background-color: #5bcebf;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #4bb1a5;
+    }
+  }
+}
+
+.icono {
+  width: 28px;
+  height: 28px;
+  margin: 0 5px;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
