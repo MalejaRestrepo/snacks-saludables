@@ -1,0 +1,36 @@
+.btn {
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: variables.$transition;
+  color: #fff;
+}
+
+
+.btn-primary {
+  @extend .btn;
+  background-color: variables.$color-accent;
+
+  &:hover {
+    background-color: darken(variables.$color-accent, 10%);
+  }
+}
+
+.btn-success {
+  @extend .btn;
+  background-color: variables.$color-primary;
+
+  &:hover {
+    background-color: darken(variables.$color-primary, 10%);
+  }
+}
+
+.btn-secondary {
+  @extend .btn;
+  background-color: #4bb1a5;
+
+  &:hover {
+    background-color: darken(#4bb1a5, 10%);
+  }
+}

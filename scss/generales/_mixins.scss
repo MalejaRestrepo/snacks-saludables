@@ -1,0 +1,28 @@
+@mixin button($bg, $hover) {
+  background-color: $bg;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #fff;
+  transition: $transition;
+
+  &:hover {
+    background-color: $hover;
+    transform: translateY(-2px);
+  }
+}
+
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+  @else if $breakpoint == tablet {
+    @media (max-width: 1024px) {
+      @content;
+    }
+  }
+}
